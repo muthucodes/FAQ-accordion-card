@@ -1,0 +1,43 @@
+@media (max-width: 57rem) {
+  .container {
+    height: auto;
+  }
+
+  .card {
+    max-width: 34rem;
+    grid-template-columns: 1fr;
+    margin: 20rem auto 10rem auto;
+    box-shadow: 0rem 0.3rem 5rem hsl(237, 12%, 40%);
+    background-position: 54% -85%;
+    background-size: 30rem auto;
+  }
+  .img-box {
+    overflow: visible;
+    height: 0;
+    padding: 6.4rem;
+  }
+  .woman-illustration {
+    /* border: 0.1rem solid black; */
+    scale: 1.4;
+    transform: translateY(-75%);
+    /* position: absolute; */
+  }
+
+  .box-illustration {
+    /* border: 0.1rem solid black; */
+    position: absolute;
+    width: 10rem;
+    top: 0%;
+    scale: 1;
+    transform: translate(10%, -50%);
+  }
+
+  .text-box {
+    padding: 3.2rem;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 3.2rem;
+  }
+}
